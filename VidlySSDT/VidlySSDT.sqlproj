@@ -79,10 +79,6 @@
     <Build Include="dbo\Stored Procedures\sp_CustomerSeeder.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="VidlySSDT.publish.xml" />
-    <None Include="aspnet-Vidly-20220616093652.publish.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <RefactorLog Include="VidlySSDT.refactorlog" />
   </ItemGroup>
 </Project>
