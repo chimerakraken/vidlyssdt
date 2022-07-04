@@ -141,7 +141,7 @@ AS
 		(SELECT TOP 1 LEFT( PersonName, 1) FROM #RandomPersonName ORDER by NEWID()) + '. ' +
 		(SELECT TOP 1 PersonName FROM #RandomPersonName ORDER by NEWID()) 
 		
-		, CRYPT_GEN_RANDOM(1) % 2 , CONVERT(VARCHAR(10), getdate(), 111), NULL )
+		, CRYPT_GEN_RANDOM(1) % 2 , 1, CONVERT(VARCHAR(10), getdate(), 111), NULL )
 
 	SET @Counter  = @Counter  + 1
 	END
