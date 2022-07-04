@@ -81,4 +81,8 @@
   <ItemGroup>
     <RefactorLog Include="VidlySSDT.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="VidlySSDT.publish.xml" />
+    <None Include="aspnet-Vidly-20220616093652.publish.xml" />
+  </ItemGroup>
 </Project>
